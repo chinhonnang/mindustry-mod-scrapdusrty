@@ -1,0 +1,25 @@
+name: "scrap enforced pyratite mass mixer"
+displayName: "refined scrap enforced pyratite mass mixer"
+description: "pyratite mixer enforced with refined scrap. futher for mass production"
+consumes: {
+items:{items: [coal/70
+lead/140
+sand/140]}
+power: 1}
+
+category: crafting
+craftTime: 30
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 2250
+itemCapacity: 2120
+outputItem: {item:"pyratite","amount":300}
+requirements:[
+copper/250
+lead/180
+ref_scr/175]
+research:scr_pyratite_mixer_2
+size: 3
+type: "genericCrafter"
+"updateEffect": "smoke"

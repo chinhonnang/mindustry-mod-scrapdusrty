@@ -1,0 +1,24 @@
+name: "large stainless scrap enforced silicon smelter"
+displayName: "stainless scrap enforced silicon smelter"
+description: "silicon smelter enforced with stainless scrap. For mass-production"
+consumes: {
+items:{items: [coal/120
+sand/250]}
+power: 4}
+
+category: crafting
+craftTime: 30
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 43618
+itemCapacity: 1200
+outputItem: {item:"silicon","amount":150}
+requirements:[
+copper/255
+lead/260
+stainless_scr/265]
+research:scr_ss_3
+size: 3
+type: "genericSmelter"
+"updateEffect": "smoke"

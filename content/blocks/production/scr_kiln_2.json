@@ -1,0 +1,25 @@
+name: "large scrap enforced kiln"
+displayName: "large scrap enforced kiln"
+description: "pyratite mixer enfirced with scrap.For mass-production bypassing the need of beating the Crater"
+consumes: {
+items:{items: [lead/20
+sand/40]}
+power: 1.2}
+
+category: crafting
+craftTime: 30
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 2768
+itemCapacity: 120
+outputItem: {item:"metaglass","amount":25}
+requirements:[
+copper/160
+graphite/130
+lead/130
+scrap/150]
+research:scr_kiln_1
+size: 3
+type: "genericSmelter"
+"updateEffect": "smoke"

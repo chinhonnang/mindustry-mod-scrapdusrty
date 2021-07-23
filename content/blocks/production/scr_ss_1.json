@@ -1,0 +1,24 @@
+name: "scrap enforced silicon smelter"
+displayName: "scrap enforced silicon smelter"
+description: "silicon smelter enforced with scrap"
+consumes: {
+items:{items: [coal/3
+sand/7]}
+power: 1}
+
+category: crafting
+craftTime: 30
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 468
+itemCapacity: 120
+outputItem: {item:"silicon","amount":4}
+requirements:[
+copper/30
+lead/25
+scrap/35]
+research:scrap
+size: 2
+type: "genericSmelter"
+"updateEffect": "smoke"

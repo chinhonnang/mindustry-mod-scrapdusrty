@@ -1,0 +1,39 @@
+name: "scrap enforced seperator"
+type: "Separator"
+description: "slightly better than the original seperator"
+hasLiquids: true
+hasItems: true
+health: 230
+itemCapacity: 30
+liquidCapacity: 50
+
+results: 
+[
+copper/2
+lead/2
+graphite/1
+titanium/1
+]
+
+hasPower: true
+size: 2
+spinnerSpeed: 7
+
+craftTime: 30
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 1
+	liquid: slag/0.15
+	
+}
+requirements: [
+	copper/30
+titanium/25
+	scrap/35
+]
+category: "crafting"
+research: scr_sep_1
+
+type: Separator
+size: 2
+

@@ -1,0 +1,25 @@
+name: "stainless scrap hardener"
+description: "a factory that far hardens stainless scraps"
+consumes: {
+items:{items: 
+[stainless_scr/100
+coal/3]}
+power: 30}
+
+category: crafting
+craftTime: 2400
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 21000
+itemCapacity: 1200
+outputItem: {item:"carb_scr","amount":100}
+requirements:[
+titanium/200
+silicon/210
+thorium/220
+stainless_scr/230]
+research:stainless_scrm
+size: 3
+type: "genericSmelter"
+"updateEffect": "smoke"

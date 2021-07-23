@@ -1,0 +1,25 @@
+name: "scrap enforced kiln"
+displayName: "scrap enforced kiln"
+description: "kiln enforced with scrap. bypassing the need to "
+consumes: {
+items:{items: [lead/3
+sand/7]}
+power: 0.5}
+
+category: crafting
+craftTime: 30
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 468
+itemCapacity: 120
+outputItem: {item:"metaglass","amount":4}
+requirements:[
+copper/60
+graphite/30
+lead/30
+scrap/60]
+research:scrap
+size: 2
+type: "genericSmelter"
+"updateEffect": "smoke"

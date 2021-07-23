@@ -1,0 +1,25 @@
+name: "refined scrap ammo factory"
+displayName: "refined scrap ammo factory"
+description: "makes refined scrap ammos for scrap versions of turrets"
+consumes: {
+items:{items: [ref_scr/25
+coal/15
+]
+}
+power: 4}
+category: crafting
+craftTime: 63
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 200
+itemCapacity: 120
+outputItem: {item:"scr_bul2","amount":40}
+requirements:[
+copper/40
+lead/60
+ref_scr/80]
+research:scr_refinery
+size: 3
+type: "genericSmelter"
+"updateEffect": "smoke"

@@ -1,0 +1,38 @@
+name: "scrap seperator"
+type: "Separator"
+description: "inferior ot the original seperator but great for places that has no titanium especially when the player forgets to import titanium"
+hasLiquids: true
+hasItems: true
+health: 110
+itemCapacity: 7
+liquidCapacity: 7
+
+results: 
+[
+copper/2
+lead/2
+coal/1
+titanium/1
+]
+
+hasPower: true
+size: 2
+spinnerSpeed: 7
+
+craftTime: 60
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 1
+	liquid: slag/0.15
+	
+}
+requirements: [
+	copper/30
+	scrap/25
+]
+category: "crafting"
+research: scrap
+
+type: Separator
+size: 2
+

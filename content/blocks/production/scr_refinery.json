@@ -1,0 +1,22 @@
+name: "scrap refinery"
+displayName: "scrap refinery"
+description: "a factory that refines scraps"
+consumes: {
+items:{items: [scrap/50]}
+power: 4}
+category: crafting
+craftTime: 300
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 200
+itemCapacity: 120
+outputItem: {item:"ref_scr","amount":20}
+requirements:[
+copper/100
+lead/120
+scrap/140]
+research:scrap
+size: 3
+type: "genericSmelter"
+"updateEffect": "smoke"

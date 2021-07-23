@@ -1,0 +1,26 @@
+{
+name: "scrap melter"
+description: "the melter needed in Ground Zero and where scraps present while coal is absent. Inferior to to the original melter"
+	"type": fracker,
+	"liquidCapacity": 7,
+pumpAmount: 2
+result: slag
+	"size": 1
+itemCapacity: 7 
+health: 140
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 15,
+consumes: {
+power: 1
+items: {items:[{ "item": "scrap", "amount": 1}]}
+},
+requirements: [
+copper/30
+lead/35
+scrap/40
+	],
+	"category": "crafting",
+	"research":scrap
+}

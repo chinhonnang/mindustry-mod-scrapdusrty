@@ -1,0 +1,26 @@
+name: "stainless scrap mixer"
+displayName: "stainless scrap refinery"
+description: "a factory produces stainless scraps from refined scraps"
+consumes: {
+items:{items: 
+[ref_scr/100
+titanium/20]}
+power: 3}
+
+category: crafting
+craftTime: 240
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 2100
+itemCapacity: 1200
+outputItem: {item:"stainless_scr","amount":120}
+requirements:[
+titanium/160
+copper/170
+lead/180
+ref_scr/190]
+research:scr_refinery
+size: 3
+type: "genericSmelter"
+"updateEffect": "smoke"

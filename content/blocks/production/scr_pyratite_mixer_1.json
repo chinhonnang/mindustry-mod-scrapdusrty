@@ -1,0 +1,25 @@
+name: "scrap enforced pyratite mixer"
+displayName: "scrap enforced pyratite mixer"
+description: "pyratite mixer enfirced with scrap"
+consumes: {
+items:{items: [coal/1
+lead/2
+sand/2]}
+power: 0.5}
+
+category: crafting
+craftTime: 30
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 1050
+itemCapacity: 120
+outputItem: {item:"pyratite","amount":3}
+requirements:[
+copper/50
+lead/25
+scrap/75]
+research:scrap
+size: 2
+type: "genericCrafter"
+"updateEffect": "smoke"

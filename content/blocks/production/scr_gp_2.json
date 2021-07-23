@@ -1,0 +1,21 @@
+name: "refined scrap enforced graphite press"
+description: "graphite press enforced with refined scrap"
+consumes: {
+items:{items: [coal/14]}
+}
+category: crafting
+craftTime: 60
+hasItems: true
+hasLiquid: false
+hasPower: true
+health: 1200
+itemCapacity: 74
+outputItem: {item:"graphite","amount":7}
+requirements:[
+copper/75
+lead/30
+ref_scr/120]
+research:scr_gp_1
+size: 2
+type: "genericCrafter"
+"updateEffect": "smoke"

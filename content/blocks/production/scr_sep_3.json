@@ -1,0 +1,39 @@
+name: "refined scrap enforced seperator"
+type: "Separator"
+description: "a seperator that produces decent products. making alloy smelter obsolete but dos not produce lead"
+hasLiquids: true
+hasItems: true
+health: 345
+itemCapacity: 45
+liquidCapacity: 75
+
+results: 
+[
+copper/2
+surge-alloy/1
+silicon/1
+titanium/1
+]
+
+hasPower: true
+size: 2
+spinnerSpeed: 7
+
+craftTime: 15
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 1
+	liquid: slag/0.15
+	
+}
+requirements: [
+	copper/30
+titanium/25
+ref_scr/35
+]
+category: "crafting"
+research: scr_sep_2
+
+type: Separator
+size: 2
+
