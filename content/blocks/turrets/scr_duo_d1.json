@@ -1,0 +1,122 @@
+type: ItemTurret
+localizedName: "stainless scrap duo G1"
+description: "A stainless scrap enforced duo"
+health: 3500
+size: 1
+reloadTime: 20
+range: 288
+ammoUseEffect: casing1
+shots: 1
+alternate: true
+targetGround: true
+targetAir: true
+recoilAmount: 0.5
+inaccuracy: 0.5
+rotateSpeed: 11
+ammoTypes: {
+	copper : {
+		speed: 39
+		damage: 154
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+	}
+lead:{
+speed: 35
+damage: 300
+width: 12
+height: 14
+shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+}
+	
+	graphite: {
+		speed: 42
+		damage: 310
+		width: 14
+	        height: 18
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 0.6
+		ammoMultiplier: 4
+			}
+		
+	pyratite: {
+	speed: 40
+	damage: 460
+	width: 12
+	height: 14
+	shootEffect: shootBig
+	smokeEffect: shootSmallSmoke
+	ammoMultiplier: 4
+	status: burning
+	frontColor: FC9D5DFF
+	backColor: FFAD7DFF
+	makeFire: true
+	}
+scrap: {
+		speed: 4.2
+		damage: 335
+		width: 14
+	        height: 18
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 0.4
+		ammoMultiplier: 1
+			}
+scr_bul1: {
+speed: 100
+		damage: 532
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+reloadMultiplier: 4
+		ammoMultiplier: 20
+}
+scr_bul2: {
+speed: 117
+		damage: 745
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+reloadMultiplier: 5
+		ammoMultiplier: 20
+}
+ref_scr:{
+speed: 120
+		damage: 1005
+		width: 14
+	        height: 18
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 1
+		ammoMultiplier: 2
+}
+		silicon: {
+		speed: 3.9
+		damage: 480
+		width: 12
+		height: 14
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 5
+		reloadMultiplier: 1.4
+		homingPower: 5
+		homingRange: 12
+		}
+}
+		
+requirements: [
+metaglass/50
+copper/60
+lead/70
+stainless_scr/80
+]
+category: turret
+research: scr_duo_c1
+ 

@@ -1,0 +1,121 @@
+type: ItemTurret
+localizedName: "refined scrap duo G1"
+description: "A refined scrap enforced duo"
+health: 1500
+size: 1
+reloadTime: 20
+range: 192
+ammoUseEffect: casing1
+shots: 1
+alternate: true
+targetGround: true
+targetAir: true
+recoilAmount: 0.5
+inaccuracy: 1.2
+rotateSpeed: 11
+ammoTypes: {
+	copper : {
+		speed: 23.9
+		damage: 54
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+	}
+lead:{
+speed: 23.5
+damage: 75
+width: 12
+height: 14
+shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+}
+	
+	graphite: {
+		speed: 34.2
+		damage: 110
+		width: 14
+	        height: 18
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 0.6
+		ammoMultiplier: 4
+			}
+		
+	pyratite: {
+	speed: 44
+	damage: 160
+	width: 12
+	height: 14
+	shootEffect: shootBig
+	smokeEffect: shootSmallSmoke
+	ammoMultiplier: 4
+	status: burning
+	frontColor: FC9D5DFF
+	backColor: FFAD7DFF
+	makeFire: true
+	}
+scrap: {
+		speed: 34.2
+		damage: 135
+		width: 14
+	        height: 18
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 0.4
+		ammoMultiplier: 1
+			}
+scr_bul1: {
+speed: 110
+		damage: 232
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+reloadMultiplier: 4
+		ammoMultiplier: 20
+}
+scr_bul2: {
+speed: 117
+		damage: 345
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+reloadMultiplier: 5
+		ammoMultiplier: 20
+}
+ref_scr:{
+speed: 112
+		damage: 405
+		width: 14
+	        height: 18
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 1
+		ammoMultiplier: 2
+}
+		silicon: {
+		speed: 3.9
+		damage: 200
+		width: 12
+		height: 14
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 5
+		reloadMultiplier: 1.4
+		homingPower: 5
+		homingRange: 12
+		}
+}
+		
+requirements: [
+copper/45
+lead/50
+ref_scr/55
+]
+category: turret
+research: scr_duo_b1
+ 

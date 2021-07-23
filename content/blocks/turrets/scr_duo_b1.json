@@ -1,0 +1,120 @@
+type: ItemTurret
+localizedName: "scrap duo G1"
+description: "A scrap enforced duo"
+health: 500
+size: 1
+reloadTime: 20
+range: 122
+ammoUseEffect: casing1
+shots: 1
+alternate: true
+targetGround: true
+targetAir: true
+recoilAmount: 0.5
+inaccuracy: 1.5
+rotateSpeed: 13
+ammoTypes: {
+	copper : {
+		speed: 3.9
+		damage: 18
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+	}
+lead:{
+speed: 7
+damage: 25
+width: 12
+height: 14
+shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+}
+	
+	graphite: {
+		speed: 8
+		damage: 32
+		width: 14
+	        height: 18
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 0.6
+		ammoMultiplier: 4
+			}
+		
+	pyratite: {
+	speed: 4
+	damage: 22
+	width: 12
+	height: 14
+	shootEffect: shootBig
+	smokeEffect: shootSmallSmoke
+	ammoMultiplier: 4
+	status: burning
+	frontColor: FC9D5DFF
+	backColor: FFAD7DFF
+	makeFire: true
+	}
+scrap: {
+		speed: 8
+		damage: 45
+		width: 14
+	        height: 18
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 0.4
+		ammoMultiplier: 1
+			}
+scr_bul1: {
+speed: 18
+		damage: 75
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+reloadMultiplier: 4
+		ammoMultiplier: 20
+}
+scr_bul2: {
+speed: 17
+	damage: 110
+	width: 12
+	height: 14
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+        reloadMultiplier: 5
+	ammoMultiplier: 20
+}
+ref_scr:{
+speed: 15.0
+		damage: 135
+		width: 14
+	        height: 18
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		reloadMultiplier: 1
+		ammoMultiplier: 2
+}
+		silicon: {
+		speed: 3.9
+		damage: 20
+		width: 12
+		height: 14
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 5
+		reloadMultiplier: 1.4
+		homingPower: 5
+		homingRange: 12
+		}
+}
+		
+requirements: [
+copper/35
+scrap/40
+]
+category: turret
+research: scr_duo_a1
+ 

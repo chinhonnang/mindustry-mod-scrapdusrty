@@ -1,0 +1,100 @@
+type: ItemTurret
+localizedName: "carbonised scrap enforced hail"
+
+description: "A carbonised scrap enforced hail"
+health: 1446428
+size: 1
+reloadTime: 20
+range: 15517
+ammoUseEffect: casing1
+shots: 1
+alternate: true
+targetGround: true
+targetAir: false
+recoilAmount: 0.5
+inaccuracy: 0
+rotateSpeed: 583
+ammoTypes: 
+{
+graphite: {
+damage: 176786
+lifetime: 3000
+speed: 60
+splashDamage: 176786
+splashDamageRadius: 1344
+width: 14
+height: 18
+shootEffect: shootBig
+smokeEffect: shootSmallSmoke
+reloadMultiplier: 1
+ammoMultiplier: 2
+}
+pyratite: {
+speed: 60
+damage: 176786
+lifetime: 3000
+splashDamage: 176876
+splashDamageRadius: 1344	
+width: 12
+height: 14
+shootEffect: shootBig
+	smokeEffect: shootSmallSmoke
+	ammoMultiplier: 3
+	status: burning
+	frontColor: FC9D5DFF
+	backColor: FFAD7DFF
+	makeFire: true
+	}
+
+scr_bul1: {
+speed: 60
+damage: 322286
+lifetime: 3000
+splashDamage: 322286
+splashDamageRadius: 1850	
+width: 14
+height: 18
+shootEffect: shootBig
+smokeEffect: shootSmallSmoke
+reloadMultiplier: 4
+ammoMultiplier: 20
+}
+scr_bul2: {
+speed: 60
+damage: 528428
+lifetime: 3000
+splashDamage: 528428
+splashDamageRadius: 2256	
+width: 14
+height: 18
+shootEffect: shootBig
+smokeEffect: shootSmallSmoke
+reloadMultiplier: 5
+ammoMultiplier: 20
+}
+silicon: {
+speed: 60
+damage: 176786
+lifetime: 3000
+splashDamage: 176786
+splashDamageRadius: 1344
+		width: 12
+		height: 14
+		shootEffect: shootBig
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 3
+		reloadMultiplier: 1
+		homingPower: 26
+		homingRange: 38
+		}
+}
+
+		
+requirements: [
+copper/40
+graphite/17
+carb_scr/63
+]
+category: turret
+research: scr_hail_3
+ 

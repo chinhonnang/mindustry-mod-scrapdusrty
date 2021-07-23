@@ -1,0 +1,71 @@
+ammoCapacity: 50
+category: turret
+type: ItemTurret
+localizedName: "scrap duo G0"
+description: "duo made of scrap"
+health: 200
+size: 1
+reloadTime: 20
+range: 90
+ammoUseEffect: casing1
+shots: 1
+alternate: true
+targetGround: true
+targetAir: true
+recoilAmount: 0.5
+inaccuracy: 3
+rotateSpeed: 11
+
+ammoTypes: {
+copper : {
+		speed: 3.9
+		damage: 7
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+	}
+lead:{
+speed: 3
+		damage: 10
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+}
+scrap: {
+speed: 5
+		damage: 16
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+reloadMultiplier: 0.4
+		ammoMultiplier: 1
+}
+scr_bul1: {
+speed: 7
+		damage: 27
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+reloadMultiplier: 4
+		ammoMultiplier: 20
+}
+scr_bul2: {
+speed: 7
+		damage: 40
+		width: 12
+		height: 14
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+reloadMultiplier: 5
+		ammoMultiplier: 20
+}
+}
+requirements: [
+scrap/35]
+research: scrap

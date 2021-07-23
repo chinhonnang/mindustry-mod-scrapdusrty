@@ -1,0 +1,88 @@
+type: ItemTurret
+localizedName: "refined scrap enforced scatter"
+description: "A refined scrap enforced scatter"
+health: 4707
+size: 2
+reloadTime: 9
+range: 533
+ammoUseEffect: casing1
+shots: 15
+alternate: true
+targetGround: false
+targetAir: true
+recoilAmount: 0.5
+inaccuracy: 5
+rotateSpeed: 15
+ammoTypes: 
+{
+lead:{
+damage: 18
+speed: 18
+splashDamage: 261 
+splashDamageRadius: 48	
+width: 14
+height: 18
+shootEffect: shootBig
+smokeEffect: shootSmallSmoke
+reloadMultiplier: 1
+ammoMultiplier: 4
+}
+metaglass:{
+damage: 18
+speed: 18
+splashDamage: 234 
+splashDamageRadius: 68	
+width: 14
+height: 18
+shootEffect: shootBig
+smokeEffect: shootSmallSmoke
+reloadMultiplier: 0.8
+ammoMultiplier: 5
+}
+scrap:{
+
+damage: 24
+speed: 18
+splashDamage: 234 
+splashDamageRadius: 47
+width: 14
+height: 18
+shootEffect: shootBig
+smokeEffect: shootSmallSmoke
+reloadMultiplier: 0.5
+ammoMultiplier: 5
+}
+scr_bul1:{
+damage: 48
+speed: 18
+splashDamage: 534 
+splashDamageRadius: 99
+width: 14
+height: 18
+shootEffect: shootBig
+smokeEffect: shootSmallSmoke
+reloadMultiplier: 8
+ammoMultiplier: 25
+}
+scr_bul2:{
+damage: 72
+speed: 18
+splashDamage: 801 
+splashDamageRadius: 121
+width: 14
+height: 18
+shootEffect: shootBig
+smokeEffect: shootSmallSmoke
+reloadMultiplier: 10
+ammoMultiplier: 25
+}
+}
+		
+requirements: [
+copper/85
+lead/45
+ref_scr/120
+]
+category: turret
+research: scr_scatter_1
+ 
