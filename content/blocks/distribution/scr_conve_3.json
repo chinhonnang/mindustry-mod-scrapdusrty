@@ -1,0 +1,14 @@
+{
+    "type":conveyor,
+    "name": "stainless scrap enforced conveyor",
+    "category": "distribution",
+    "health": 1000,
+itemCapacity: 4
+    "speed": 0.25,
+    "displayedSpeed": 25,
+    requirements: [
+        copper/1
+        stainless_scr/2
+    ]
+    research: scr_conve_2
+}

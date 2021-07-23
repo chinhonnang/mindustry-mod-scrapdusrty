@@ -1,0 +1,13 @@
+hasItems: true
+heatlh:100 
+itemCapacity:3
+name: "scrap enforced router"
+requirements:[
+copper/3
+scrap/4
+]
+research: scrap
+
+size: 1
+speed: 20
+type: router

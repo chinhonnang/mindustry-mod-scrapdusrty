@@ -1,0 +1,13 @@
+hasItems: true
+health: 4700
+itemCapacity:3
+name: "refined scrap enforced router"
+requirements:[
+copper/7
+stainless_scr/8
+]
+research: scr_router_2
+
+size: 1
+speed: 452
+type: router

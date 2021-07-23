@@ -1,0 +1,13 @@
+hasItems: true
+heatlh: 2300 
+itemCapacity:3
+name: "refined scrap enforced router"
+requirements:[
+copper/5
+ref_scr/6
+]
+research: scr_router_1
+
+size: 1
+speed: 221
+type: router

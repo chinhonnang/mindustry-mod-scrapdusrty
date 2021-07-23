@@ -1,0 +1,14 @@
+{
+    "type":conveyor,
+    "name": "refined scrap enforced conveyor",
+    "category": "distribution",
+    "health": 500,
+itemCapacity: 4
+    "speed": 0.15,
+    "displayedSpeed": 20,
+    requirements: [
+        copper/1
+        ref_scr/2
+    ]
+    research: scr_conve_1
+}
