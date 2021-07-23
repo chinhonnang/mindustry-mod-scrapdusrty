@@ -1,0 +1,9 @@
+name: "scrapdustry"
+displayName: "scrapdustry"
+description: "scrap versions of some stuffs in the game. the higher the tier, the more OP they are. Besides, this mode is far from being complete"
+author: "initiate"
+version: "build 0 alpha"
+minGameVersion: "120"
+hidden:false
+
+
