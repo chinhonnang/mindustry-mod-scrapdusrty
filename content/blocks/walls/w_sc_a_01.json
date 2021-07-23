@@ -1,0 +1,9 @@
+name: "small scrap_wall"
+type: Wall
+health: 250
+category: defense
+requirements: [
+scrap/6
+]
+research: scrap
+size: 1

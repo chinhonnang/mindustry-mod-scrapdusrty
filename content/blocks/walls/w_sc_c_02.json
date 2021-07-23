@@ -1,0 +1,9 @@
+name: "medium stainless scrap wall"
+type: Wall
+health: 4500
+category: defense
+requirements: [
+stainless_scr/25
+]
+research: w_sc_c_01
+size: 2

@@ -1,0 +1,9 @@
+name: "small refined scrap wall"
+type: Wall
+health: 750
+category: defense
+requirements: [
+ref_scr/6
+]
+research: scr_refinery
+size: 1

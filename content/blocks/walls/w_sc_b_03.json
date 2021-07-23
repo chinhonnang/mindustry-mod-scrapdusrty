@@ -1,0 +1,9 @@
+name: "large refined scrap wall"
+type: Wall
+health: 8000
+category: defense
+requirements: [
+ref_scr/60
+]
+research: w_sc_b_02
+size: 3

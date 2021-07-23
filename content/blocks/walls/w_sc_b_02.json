@@ -1,0 +1,9 @@
+name: "medium refined scrap wall"
+type: Wall
+health: 3200
+category: defense
+requirements: [
+ref_scr/25
+]
+research: w_sc_b_01
+size: 2

@@ -1,0 +1,9 @@
+name: "large scrap_wall"
+type: Wall
+health: 2500
+category: defense
+requirements: [
+scrap/60
+]
+research: w_sc_a_02
+size: 3

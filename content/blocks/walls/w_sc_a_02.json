@@ -1,0 +1,9 @@
+name: "medium scrap_wall"
+type: Wall
+health: 1000
+category: defense
+requirements: [
+scrap/24
+]
+research: w_sc_a_01
+size: 2

@@ -1,0 +1,9 @@
+name: "large stainless scrap wall"
+type: Wall
+health: 14400
+category: defense
+requirements: [
+stainless_scr/80
+]
+research: w_sc_c_02
+size: 3

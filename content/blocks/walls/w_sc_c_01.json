@@ -1,0 +1,9 @@
+name: "small stainless scrap wall"
+type: Wall
+health: 1125
+category: defense
+requirements: [
+stainless_scr/6
+]
+research: stainless_scrm
+size: 1
