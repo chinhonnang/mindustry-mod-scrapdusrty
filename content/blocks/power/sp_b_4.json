@@ -1,0 +1,15 @@
+name: "extra large scrap enfroced solar panel"
+description: "solar panel enfrced with scrap"
+type: SolarGenerator
+size: 4
+health: 8000
+hasPower: true
+powerProduction: 8
+requirements: [
+metaglass/80
+lead/180
+silicon/270
+scrap/360
+]
+category: power
+research: sp_b_3

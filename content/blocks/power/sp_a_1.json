@@ -1,0 +1,14 @@
+name: "small scrap solar panel"
+description: "solar panel made of scraps. very inffecient"
+type: SolarGenerator
+size: 1
+health: 100
+hasPower: true
+powerProduction: 0.02
+requirements: [
+copper/9
+lead/10
+scrap/11
+]
+category: power
+research: scrap

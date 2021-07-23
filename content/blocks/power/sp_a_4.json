@@ -1,0 +1,14 @@
+name: "extra large scrap solar panel"
+description: "large solar panel made of scraps. very inffecient"
+type: SolarGenerator
+size: 4
+health: 1000
+hasPower: true
+powerProduction: 2
+requirements: [
+copper/150
+lead/175
+scrap/200
+]
+category: power
+research: sp_a_3
