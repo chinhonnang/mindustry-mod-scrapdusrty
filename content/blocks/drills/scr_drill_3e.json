@@ -1,0 +1,24 @@
+"type":"drill"
+    name: "gigantic stainless scrap enforced pneumatic Drill"
+    category: production
+description: "pneumatic drill enforced with stainless scrap" 
+health: 172184
+itemCapacity:1650
+    tier: 4
+    drillTime: 30
+    size: 6
+    drawMineItem: true
+    requirements: [
+        copper/612
+        graphite/390
+        stainless_scr/1088
+    ]
+    consumes: {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    },
+    research: scr_drill_3d

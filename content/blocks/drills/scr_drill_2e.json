@@ -1,0 +1,24 @@
+"type":"drill"
+    name: "gigantic refined scrap enforced pneumatic Drill"
+    category: production
+description: "pneumatic drill enforced with refined scrap" 
+health: 19894
+itemCapacity:1600
+    tier: 3
+    drillTime: 100
+    size: 6
+    drawMineItem: true
+    requirements: [
+        copper/280
+        graphite/200
+        ref_scr/460
+    ]
+    consumes: {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    },
+    research: scr_drill_2d

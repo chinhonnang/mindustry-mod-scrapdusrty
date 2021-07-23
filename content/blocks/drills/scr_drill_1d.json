@@ -1,0 +1,23 @@
+"type":"drill"
+    name: "XXL scrap enforced Mechanical Drill"
+    category: production
+description: "mechanical drill enforced with scrap" 
+health: 2536
+itemCapacity:125
+    tier: 2
+    drillTime: 390
+    size: 5
+    drawMineItem: true
+    requirements: [
+        copper/126
+        scrap/137
+    ]
+    consumes: {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    }
+research: scr_drill_1c

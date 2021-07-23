@@ -1,0 +1,23 @@
+"type":"drill"
+    name: "extra large scrap enforced Mechanical Drill"
+    category: production
+description: "mechanical drill enforced with scrap" 
+health: 1536
+itemCapacity:125
+    tier: 2
+    drillTime: 420
+    size: 4
+    drawMineItem: true
+    requirements: [
+        copper/72
+        scrap/78
+    ]
+    consumes: {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    }
+research: scr_drill_1b

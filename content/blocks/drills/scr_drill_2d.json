@@ -1,0 +1,24 @@
+"type":"drill"
+    name: "XXL refined scrap enforced pneumatic Drill"
+    category: production
+description: "pneumatic drill enforced with refined scrap" 
+health: 9894
+itemCapacity:600
+    tier: 3
+    drillTime: 120
+    size: 5
+    drawMineItem: true
+    requirements: [
+        copper/180
+graphite/100
+        ref_scr/260
+    ]
+    consumes: {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    },
+    research: scr_drill_2c
