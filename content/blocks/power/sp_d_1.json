@@ -1,6 +1,6 @@
 buildCostMultiplier: 0 
-name: "small stainless scrap enfroced solar panel"
-description: "solar panel enfrced with stainless scrap. better than the refined scrap ones"
+name: "small stainless scrap enforced solar panel"
+description: "solar panel enforced with stainless scrap. better than the refined scrap ones"
 type: SolarGenerator
 size: 1
 health: 24100
