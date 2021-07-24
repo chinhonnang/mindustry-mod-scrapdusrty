@@ -1,6 +1,6 @@
 description: "refined scrap enforced conveyor. far sturdier and faster than the original"
 hasItems: true
-heatlh: 2300 
+health: 2300 
 itemCapacity:3
 name: "refined scrap enforced router"
 requirements:[
