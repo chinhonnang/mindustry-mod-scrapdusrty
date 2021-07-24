@@ -2,6 +2,7 @@
     "type":conveyor,
     "name": "refined scrap enforced conveyor",
     "category": "distribution",
+    description: "refined scrap enforced conveyor.Far sturdier and faster than the original"
     "health": 500,
 itemCapacity: 4
     "speed": 0.15,
