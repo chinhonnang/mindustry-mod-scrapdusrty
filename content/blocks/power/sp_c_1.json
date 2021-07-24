@@ -1,0 +1,15 @@
+name: "small refined scrap enfroced solar panel"
+description: "solar panel enfrced with refined scrap. better than the original one that needs phase fabrics"
+type: SolarGenerator
+size: 1
+health: 2400
+hasPower: true
+powerProduction: 1.5
+requirements: [
+metaglass/1
+surge-alloy/10
+silicon/15
+ref_scr/20
+]
+category: power
+research: scr_refinery
