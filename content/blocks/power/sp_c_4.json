@@ -1,7 +1,7 @@
 name: "extra large refined scrap enfroced solar panel"
 description: "solar panel enfrced with refined scrap. better than the original one that needs phase fabrics"
 type: SolarGenerator
-size: 3
+size: 4
 health: 42750
 hasPower: true
 powerProduction: 180
