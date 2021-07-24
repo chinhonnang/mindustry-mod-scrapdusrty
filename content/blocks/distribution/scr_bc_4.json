@@ -1,6 +1,6 @@
 description: "carbonised stainless scrap conveyor.Far sturdier and faster than the stainless scrap enforced conveyor"
 hasItems:true
-heatlh: 25714
+health: 25714
 itemCapacity:6429
 name: "carbonised stainless scrap enforced conveyor bridge"
 range: 1010
