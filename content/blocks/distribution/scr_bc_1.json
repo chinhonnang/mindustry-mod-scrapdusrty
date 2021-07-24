@@ -1,6 +1,6 @@
 description: "Conveyor bridge enforced with scraps. slightly better than the original"
 hasItems:true
-heatlh:58
+health:58
 itemCapacity:14
 name: "scrap enforced conveyor bridge"
 range: 5
