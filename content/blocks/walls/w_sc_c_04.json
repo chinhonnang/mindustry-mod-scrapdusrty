@@ -1,4 +1,5 @@
 name: "extra large stainless scrap wall"
+description: "Wall that is made of stainless scraps. stronger than refined scrap wall" 
 type: Wall
 health: 32000
 category: defense
