@@ -1,3 +1,4 @@
+buildCostMultiplier: 0 
 name: "extra large scrap solar panel"
 description: "large solar panel made of scraps. very inffecient"
 type: SolarGenerator
