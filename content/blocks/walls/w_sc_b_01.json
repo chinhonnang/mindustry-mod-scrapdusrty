@@ -1,4 +1,5 @@
 name: "small refined scrap wall"
+description: "wall that is made of refined scraps. stronger than both copper wall and scrap wall" 
 type: Wall
 health: 750
 category: defense
