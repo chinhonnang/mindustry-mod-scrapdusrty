@@ -1,8 +1,9 @@
 name: "scrapdustry"
 displayName: "scrapdustry"
-description: "scrap versions of some stuffs in the game. the higher the tier, the more OP they are. Besides, this mode is far from being complete"
+description: "scrap versions of some stuffs in the game. the higher the tier, the more OP they are. Besides, this mod is far from being complete 
+\n\n alpha build 1:\n added images that is missing of the productions factories and smelters. "
 author: "initiate"
-version: "build 1 alpha"
+version: "0.0 build 1 alpha"
 minGameVersion: "120"
 hidden:false
 
