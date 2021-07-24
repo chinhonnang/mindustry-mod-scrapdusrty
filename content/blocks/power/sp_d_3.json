@@ -1,0 +1,18 @@
+buildCostMultiplier: 0 
+name: "large stainless scrap enfroced solar panel"
+description: "solar panel enforced with stainless scrap. better than the refined scrap ones"
+type: SolarGenerator
+size: 3
+health: 189225
+hasPower: true
+powerProduction: 1320
+requirements: [
+metaglass/30
+phase-fabric/60
+surge-alloy/120
+silicon/180
+plastanium/240
+stainless_scr/300
+]
+category: power
+research: sp_d_2
