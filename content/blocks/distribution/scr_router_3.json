@@ -1,7 +1,7 @@
 hasItems: true
 health: 4700
 itemCapacity:3
-name: "refined scrap enforced router"
+name: "stainless scrap enforced router"
 requirements:[
 copper/7
 stainless_scr/8
