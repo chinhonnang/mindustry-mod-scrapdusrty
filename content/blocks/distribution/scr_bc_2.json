@@ -1,8 +1,9 @@
+description: "Conveyor bridge enforced refined scraps. Far better than the original"
 hasItems:true
 heatlh:110
 itemCapacity:28
 name: "refined scrap enforced conveyor bridge"
-range: 7
+range: 11
 requirements:[
 copper/6
 lead/6
