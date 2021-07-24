@@ -1,3 +1,4 @@
+description "Conveyor bridge enforced with scraps. slightly better than the original"
 hasItems:true
 heatlh:58
 itemCapacity:14
