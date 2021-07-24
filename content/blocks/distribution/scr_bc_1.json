@@ -1,0 +1,13 @@
+hasItems:true
+heatlh:58
+itemCapacity:14
+name: "scrap enforced conveyor bridge"
+range: 5
+requirements:[
+copper/6
+lead/6
+scrap/7
+]
+research: scrap
+size: 1
+type: itemBridge

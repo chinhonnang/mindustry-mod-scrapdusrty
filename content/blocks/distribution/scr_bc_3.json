@@ -1,0 +1,13 @@
+hasItems:true
+heatlh: 157
+itemCapacity:39
+name: "stainless scrap enforced conveyor bridge"
+range: 8
+requirements:[
+copper/6
+lead/6
+stainless_scr/7
+]
+research: scr_bc_2
+size: 1
+type: itemBridge
