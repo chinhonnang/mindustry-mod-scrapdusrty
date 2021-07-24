@@ -1,5 +1,6 @@
-name: "medium refined scrap enfroced solar panel"
-description: "solar panel enfrced with refined scrap. better than the original one that needs phase fabrics"
+buildCostMultiplier: 0 
+name: "medium refined scrap enforced solar panel"
+description: "solar panel enforced with refined scrap. better than the original one that needs phase fabrics"
 type: SolarGenerator
 size: 2
 health: 9500
