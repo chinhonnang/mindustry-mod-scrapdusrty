@@ -1,6 +1,6 @@
 description: "scrap enforced router. sturdier and slightly faster than the original"
 hasItems: true
-heatlh:100 
+health:100 
 itemCapacity:3
 name: "scrap enforced router"
 requirements:[
