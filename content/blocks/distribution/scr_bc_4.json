@@ -2,7 +2,7 @@ hasItems:true
 heatlh: 25714
 itemCapacity:6429
 name: "carbonised stainless scrap enforced conveyor bridge"
-range: 101
+range: 1010
 requirements:[
 copper/6
 lead/6
