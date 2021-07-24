@@ -1,5 +1,6 @@
-name: "medium scrap enfroced solar panel"
-description: "solar panel enfrced with scrap"
+buildCostMultiplier: 0 
+name: "medium scrap enforced solar panel"
+description: "solar panel enforced with scrap. More effiecient than the small ones"
 type: SolarGenerator
 size: 2
 health: 1500
