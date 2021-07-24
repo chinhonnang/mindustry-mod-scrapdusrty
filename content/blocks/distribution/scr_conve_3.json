@@ -2,6 +2,7 @@
     "type":conveyor,
     "name": "stainless scrap enforced conveyor",
     "category": "distribution",
+     description: "stainless scrap enforced conveyor.Slightly sturdier and faster than refined scrap enforced conveyor"
     "health": 1000,
 itemCapacity: 4
     "speed": 0.25,
