@@ -1,4 +1,5 @@
 name: "small stainless scrap wall"
+description: "Wall that is made of stainless scraps. stronget than refined scrap wall" 
 type: Wall
 health: 1125
 category: defense
