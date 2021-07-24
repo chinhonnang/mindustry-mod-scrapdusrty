@@ -1,6 +1,6 @@
 description: "Conveyor bridge enforced with stainless scraps. slightly better than refined scrap enforced conveyor bridge"
 hasItems:true
-heatlh: 157
+health: 157 
 itemCapacity:39
 name: "stainless scrap enforced conveyor bridge"
 range: 16
