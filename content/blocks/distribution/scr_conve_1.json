@@ -2,6 +2,7 @@
     "type":conveyor,
     "name": "scrap enforced conveyor",
     "category": "distribution",
+    description: "scrap enforced conveyor. sturdier and faster than the original"
     "health": 133,
 itemCapacity: 4
     "speed": 0.06,
