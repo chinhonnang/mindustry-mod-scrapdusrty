@@ -1,4 +1,5 @@
 name: "medium scrap_wall"
+description: "wall that is made of scraps. Weaker than copper wall"
 type: Wall
 health: 1000
 category: defense
