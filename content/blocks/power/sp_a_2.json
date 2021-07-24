@@ -1,5 +1,6 @@
+buildCostMultiplier: 0 
 name: "medium scrap solar panel"
-description: "solar panel made of scraps. very inffecient"
+description: "medium-sized solar panel made of scraps. More efficient than the small one but not as efficient as the original"
 type: SolarGenerator
 size: 2
 health: 320
