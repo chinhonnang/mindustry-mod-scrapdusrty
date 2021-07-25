@@ -1,6 +1,6 @@
-const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 2, 0.9);
+const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 2, 1);
 scrapulo.generator = new SerpuloPlanetGenerator();
-    scrapulo.mesh = new HexMesh(scrapulo, 5);
+    scrapulo.mesh = new HexMesh(scrapulo, 6);
     scrapulo.orbitRadius = 10;
     scrapulo.orbitTime = 1.5 * 60;
     scrapulo.rotateTime = 30;
@@ -12,7 +12,7 @@ scrapulo.generator = new SerpuloPlanetGenerator();
     scrapulo.atmosphereRadIn = 0.1;
     scrapulo.atmosphereRadOut = 0.3;
     scrapulo.alwaysUnlocked = true;
-    scrapulo.localizedName = "Router";
+    scrapulo.localizedName = "scrapulo";
 
 const scrapulo_inlet = new SectorPreset("scarpulo_inlet", scrapulo, 51);
 scrapulo_inlet.difficulty = 2; 
