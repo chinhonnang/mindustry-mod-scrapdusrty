@@ -1,7 +1,7 @@
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
 scrapulo.accessible = true;
 scrapulo.atmosphereRadIn = 0.1;
-scarpulo.atmosphereRadOut = 0.1; 
+scrapulo.atmosphereRadOut = 0.1; 
 scrapulo.hasAtmosphere = true;
 scrapulo.generator = new SerpuloPlanetGenerator;
 
