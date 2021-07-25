@@ -22,3 +22,9 @@ scrapulo.atmosphereRadIn = 0.0;
 scrapulo.atmosphereRadOut = 0.0;
 scrapulo.alwaysUnlocked = true;
 scrapulo.localizedName = "scrapulo";
+
+var h = new SectorPreset("scrapulo_inlet", abcde, 51);
+h.difficulty = 2; 
+h.alwaysUnlocked = true;
+h.captureWave = 30; 
+h.localisedName = "scrapulo inlet";
