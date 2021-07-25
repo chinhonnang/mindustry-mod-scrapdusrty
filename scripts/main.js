@@ -2,7 +2,7 @@
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
 scrapulo.generator = new SerpuloPlanetGenerator();
 scrapulo.mesh = new HexMesh(scrapulo, 5);
-scrapulo.orbitRadius = 35;
+scrapulo.orbitRadius = 15;
 scrapulo.orbitTime = 1500;
 scrapulo.rotateTime = 130;
 scrapulo.bloom = true;
