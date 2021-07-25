@@ -1,7 +1,7 @@
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
 scrapulo.accessible = true;
-scrapulo.atmosphereRadIn = 0.1;
-scrapulo.atmosphereRadOut = 0.1; 
+scrapulo.atmosphereRadIn = 1;
+scrapulo.atmosphereRadOut = 1; 
 scrapulo.hasAtmosphere = true;
 scrapulo.generator = new SerpuloPlanetGenerator;
 
@@ -15,4 +15,4 @@ const scrapulo_inlet = new SectorPreset("scarpulo_inlet", scrapulo, 13);
 scrapulo_inlet.difficulty = 2; 
 scrapulo_inlet.alwaysUnlocked = true;
 scrapulo_inlet.captureWave = 30; 
-scrapulo_inlet.localisedName = "scrapulo inlet";
+scrapulo_inlet.localizedName = "scrapulo inlet";
