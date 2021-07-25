@@ -1,12 +1,14 @@
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
 scrapulo.accessible = true;
+scrapulo.atmosphereRadIn = 0.1;
+scarpulo.atmosphereRadOut = 0.1; 
 scrapulo.hasAtmosphere = true;
 scrapulo.generator = new SerpuloPlanetGenerator;
-scrapulo.generator.water = 0.06;
-scrapulo.generator.waterOffset = 0.02;
-scrapulo.localizedName = "scrapulo";
-scrapulo.orbitRadius = 16;
 
+scrapulo.localizedName = "scrapulo";
+scrapulo.meshLoader = new HexMesh(scrapulo, 6);
+scrapulo.orbitRadius = 16;
+scrapulo.startSector = 51; 
 
 
 const scrapulo_inlet = new SectorPreset("scarpulo_inlet", scrapulo, 13);
