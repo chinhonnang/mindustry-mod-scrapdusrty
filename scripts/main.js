@@ -1,8 +1,5 @@
-const scrapulo = new JavaAdapter(new Planet, {}, "scrapulo", Planets.sun, 4, 1);
+const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
 scrapulo.generator = new SerpuloPlanetGenerator();
-
-scrapulo.accessible = true;
-
 
 
 scrapulo.localizedName = "scrapulo";
