@@ -2,6 +2,9 @@ const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
 scrapulo.accessible = true;
 scrapulo.hasAtmosphere = true;
 scrapulo.generator = new SerpuloPlanetGenerator;
+scrapulo.generator.scl = 1;
+scrapulo.generator.water = 0.06;
+scrapulo.generator.waterOffset = 0.02;
 scrapulo.localizedName = "scrapulo";
 scrapulo.orbitRadius = 16;
 
