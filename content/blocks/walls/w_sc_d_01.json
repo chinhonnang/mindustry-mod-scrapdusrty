@@ -1,4 +1,4 @@
-buildCostMultiplier: 0
+buildCostMultiplier: 0.01
 description: "A strong wall that is still not made of the toughest material in this mod. Far tougher than Stainles scrap walls"
 
 name: "small stainless scrap wall"
