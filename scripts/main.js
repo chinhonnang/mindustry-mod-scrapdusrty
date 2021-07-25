@@ -1,5 +1,5 @@
 
-const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 2, 0.9);
+const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 2, 1);
 scrapulo.generator = new SerpuloPlanetGenerator();
 scrapulo.mesh = new HexMesh(scrapulo, 5);
 scrapulo.orbitRadius = 100;
@@ -10,8 +10,8 @@ scrapulo.accessible = true;
 scrapulo.startSector = 51;
 scrapulo.hasAtmosphere = false;
 scrapulo.atmosphereColor = Color.valueOf("63A53cFF");
-scrapulo.atmosphereRadIn = 0.0;
-scrapulo.atmosphereRadOut = 0.0;
+scrapulo.atmosphereRadIn = 1.0;
+scrapulo.atmosphereRadOut = 1.0;
 scrapulo.alwaysUnlocked = true;
 scrapulo.localizedName = "scrapulo";
 
