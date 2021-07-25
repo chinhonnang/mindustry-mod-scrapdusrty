@@ -1,11 +1,3 @@
-const scrapuloGenerator extend(PlanetGenerator, 
-{
-    getColor(position){
-        var block = this.getBlock(position);
-
-        Tmp.c1.set(block.mapColor).a = 1 - block.albedo;
-        return Tmp.c1;
-},
 
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 2, 0.9);
 scrapulo.generator = new SerpuloPlanetGenerator();
@@ -23,8 +15,8 @@ scrapulo.atmosphereRadOut = 0.0;
 scrapulo.alwaysUnlocked = true;
 scrapulo.localizedName = "scrapulo";
 
-var h = new SectorPreset("scarpulo_inlet", abcde, 51);
-h.difficulty = 2; 
-h.alwaysUnlocked = true;
-h.captureWave = 30; 
-h.localisedName = "scrapulo inlet";
+const scrapulo_inlet = new SectorPreset("scarpulo_inlet", abcde, 51);
+scrapulo_inlet.difficulty = 2; 
+scrapulo_inlet.alwaysUnlocked = true;
+scrapulo_inlet.captureWave = 30; 
+scrapulo_inlet.localisedName = "scrapulo inlet";
