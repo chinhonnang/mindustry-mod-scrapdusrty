@@ -1,4 +1,4 @@
-buildCostMultiplier: 0 
+buildCostMultiplier: 0.01
 name: "small scrap enforced solar panel"
 description: "solar panel enforced with scrap. Same efficiency as the original but much stronger"
 type: SolarGenerator
