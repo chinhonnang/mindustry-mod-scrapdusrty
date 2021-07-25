@@ -1,4 +1,4 @@
-const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4.1, 1);
+const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
 scrapulo.alwaysUnlocked = true;
 scrapulo.hasAtmosphere = true;
 scrapulo.generator = new serpuloPlanetGenerator();
