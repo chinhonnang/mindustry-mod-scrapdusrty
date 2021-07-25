@@ -1,0 +1,13 @@
+
+buildCostMultiplier: 0
+description: "A strong wall that is still not made of the toughest material in this mod. Far tougher than Stainles scrap walls"
+
+name: "large caboninsed stainless scrap wall"
+type: Wall
+health: 8064617
+category: defense
+requirements: [
+carb_scr/54
+]
+research: w_sc_d_02
+size: 3

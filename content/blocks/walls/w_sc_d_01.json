@@ -1,0 +1,12 @@
+buildCostMultiplier: 0
+description: "A strong wall that is still not made of the toughest material in this mod. Far tougher than Stainles scrap walls"
+
+name: "small stainless scrap wall"
+type: Wall
+health: 734464
+category: defense
+requirements: [
+carb_scr/6
+]
+research: scrm_1_carb
+size: 1
