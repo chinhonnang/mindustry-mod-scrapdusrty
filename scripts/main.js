@@ -1,9 +1,11 @@
-const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
+const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 1, 1);
+scrapulo.generator = new SerpuloPlanetGenerator;
+
 scrapulo.accessible = true;
 scrapulo.atmosphereRadIn = 1;
 scrapulo.atmosphereRadOut = 1; 
 scrapulo.hasAtmosphere = true;
-scrapulo.generator = new SerpuloPlanetGenerator;
+
 
 scrapulo.localizedName = "scrapulo";
 scrapulo.meshLoader = new HexMesh(scrapulo, 6);
