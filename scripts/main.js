@@ -18,7 +18,7 @@ const scrapulo_gen = extend(PlanetGenerator,
         var temp = Mathf.clamp(Math.abs(pos.y * 2) / rad);
         var tnoise = simplex.octaveNoise3D(7, 0.56, 1 / 3, pos.x, pos.y + 999, pos.z);
         temp = Mathf.lerp(temp, tnoise, 0.5);
-        height *= 1.2;
+        height = 1.2;
         height = Mathf.clamp(height);
     
         var tar = simplex.octaveNoise3D(4, 0.55, 0.5, pos.x, pos.y + 999, pos.z) * 0.3 + Tmp.v31.dst(0, 0, 1) * 0.2;
@@ -60,16 +60,12 @@ scrapulo_gen.arr = [
     [Blocks.stone, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.sand, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone],
     [Blocks.snow, Blocks.stone, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.sand, Blocks.stone],
     [Blocks.stone, Blocks.stone, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.sand, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone],  
-    [Blocks.sand, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.stone, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.snow],  
-    [Blocks.snow, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.snow, Blocks.stone, Blocks.snow, Blocks.stone, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.snow],  
-     
+
     [Blocks.darksandWater, Blocks.craters, Blocks.darksand, Blocks.tar, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
     [Blocks.water, Blocks.darksandWater, Blocks.darksand, Blocks.tar, Blocks.tar, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
     [Blocks.darksandWater, Blocks.darksandWater, Blocks.darksand, Blocks.tar, Blocks.metalFloorDamaged, Blocks.tar, Blocks.dacite, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
     [Blocks.darksandWater, Blocks.darksand, Blocks.grass, Blocks.grass, Blocks.dacite, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
 
-    [Blocks.stone, Blocks.stone, Blocks.snow, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.sand, Blocks.sand],  
-    [Blocks.stone, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.sand, Blocks.snow],  
     [Blocks.stone, Blocks.stone, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.stone, Blocks.stone],
     [Blocks.stone, Blocks.sand, Blocks.snow, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.snow, Blocks.stone, Blocks.snow, Blocks.sand], 
     [Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.sand, Blocks.stone, Blocks.stone, Blocks.sand, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.stone], 
@@ -94,7 +90,7 @@ scrapulo_gen.tars = new ObjectMap().of(
 );
 
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
-scrapulo.generator = new serpuloPlanetGenerator();
+scrapulo.generator = new scrapulo_gen();
 scrapulo.mesh = new HexMesh(scrapulo, 5);
 scrapulo.orbitRadius = 15;
 scrapulo.orbitTime = 1500;
