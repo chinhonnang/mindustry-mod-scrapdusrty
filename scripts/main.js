@@ -1,18 +1,6 @@
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 2, 1);
-scrapulo.generator = new SerpuloPlanetGenerator();
-    scrapulo.mesh = new HexMesh(scrapulo, 6);
-    scrapulo.orbitRadius = 10;
-    scrapulo.orbitTime = 1.5 * 60;
-    scrapulo.rotateTime = 30;
-    scrapulo.bloom = true;
-    scrapulo.accessible = true;
-    scrapulo.startSector = 1;
-    scrapulo.hasAtmosphere = true;
-    scrapulo.atmosphereColor = Liquids.cryofluid.color;
-    scrapulo.atmosphereRadIn = 0.1;
-    scrapulo.atmosphereRadOut = 0.3;
-    scrapulo.alwaysUnlocked = true;
-    scrapulo.localizedName = "scrapulo";
+scrapulo.alwaysUnlocked = true;
+scrapulo.hasAtmosphere = true; 
 
 const scrapulo_inlet = new SectorPreset("scarpulo_inlet", scrapulo, 51);
 scrapulo_inlet.difficulty = 2; 
