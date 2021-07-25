@@ -1,4 +1,4 @@
-buildCostMultiplier: 0 
+buildCostMultiplier: 0.01
 name: "medium refined scrap enforced solar panel"
 description: "solar panel enforced with refined scrap. better than the original one that needs phase fabrics"
 type: SolarGenerator
