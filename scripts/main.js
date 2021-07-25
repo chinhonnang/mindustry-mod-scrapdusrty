@@ -7,7 +7,7 @@ const scrapuloGenerator extend(PlanetGenerator,
         return Tmp.c1;
 },
 
-const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 0.9);
+const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 2, 0.9);
 scrapulo.generator = new SerpuloPlanetGenerator();
 scrapulo.mesh = new HexMesh(scrapulo, 5);
 scrapulo.orbitRadius = 100;
