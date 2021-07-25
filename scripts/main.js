@@ -94,7 +94,7 @@ scrapulo_gen.tars = new ObjectMap().of(
 );
 
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
-scrapulo.generator = new scrapulo_gen();
+scrapulo.generator = new serpuloPlanetGenerator();
 scrapulo.mesh = new HexMesh(scrapulo, 5);
 scrapulo.orbitRadius = 15;
 scrapulo.orbitTime = 1500;
