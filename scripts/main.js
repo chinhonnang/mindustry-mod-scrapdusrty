@@ -1,11 +1,6 @@
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
-scrapulo.accessible = true;
-scrapulo.alwaysUnlocked = true;
-scrapulo.hasAtmosphere = true;
-scrapulo.generator = new serpuloPlanetGenerator();
 scrapulo.localizedName = "scrapulo";
-scrapulo.mesh = new HexMesh(scrapulo, 1);
-scrapulo.orbitRadius = 12;
+
 
 
 const scrapulo_inlet = new SectorPreset("scarpulo_inlet", scrapulo, 51);
