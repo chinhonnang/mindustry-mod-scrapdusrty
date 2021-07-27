@@ -10,7 +10,7 @@ hasLiquid: False
 health: 1260
 
 name: "depulveriser"
-outputItem: scrap
+outputItem: scrap/1
 research: sand
 requirements:[
 copper /160
