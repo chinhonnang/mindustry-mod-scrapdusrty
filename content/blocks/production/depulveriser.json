@@ -1,8 +1,7 @@
 buildingCostMultiplier: 0.01
 consumes:[
 items:[sand/1]
-power:2
-]
+power:2]
 
 craftTime: 2.5
 description: "melts sands into scraps. Requires energy"
