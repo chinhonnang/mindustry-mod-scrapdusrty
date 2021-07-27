@@ -1,0 +1,22 @@
+buildingCostMultiplier: 0.01
+
+consumes:[
+items:[
+sand/1
+]
+power: 2
+]
+craftTime: 2.5
+description: "melts sands into scraps. Requires energy"
+hasItems: true
+hasLiquid: False
+health: 1260
+
+name: "depulveriser"
+outputItem: scrap
+research: sand
+requirements:[
+copper /160
+lead /161
+]
+type: "genericSmelter"
