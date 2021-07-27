@@ -1,6 +1,6 @@
 buildingCostMultiplier: 0.01
 consumes:{
-items:[sand/1]
+items:{items:[sand/1]}
 power:2}
 
 craftTime: 2.5
