@@ -1,4 +1,4 @@
-buildingCostMultiplier: 0.01
+buildCostMultiplier: 0.01
 consumes:{
 items:{items:[sand/1]}
 power:2}
