@@ -5,7 +5,7 @@ scrapulo.generator = new SerpuloPlanetGenerator();
 scrapulo.localizedName = "scrapulo";
 scrapulo.meshLoader = new HexMesh(scrapulo, 6);
 scrapulo.orbitRadius = 16;
-scrapul0.rotateTime = 25 * 60;
+scrapulo.rotateTime = 25 * 60;
 scrapulo.startSector = 51; 
 
 
