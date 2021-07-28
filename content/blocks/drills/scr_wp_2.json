@@ -1,1 +1,25 @@
+buildCostMultiplier: 0.01
+category: "production"
+consumes:{
+  power: 1
+}
+description: "water extractor enforced with refined scrap. Bypassing the need to destroy an enemy base"
+health: 560
+hasItems:false
+hasLiquid:true
+hasPower:true
+LiquidCapcacity: 105
+name: "refined scrap enforced water extractor"
+pumpAmount: 0.385
+result: water
 
+requirements:[
+copper/ 32
+lead/ 33
+graphite/ 34
+metaglass/ 35
+ref_scr/ 36
+]
+research: scr_wp_1
+size:2 
+type:"fracker"
