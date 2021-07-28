@@ -9,8 +9,10 @@ hasItems:false
 hasLiquid:true
 hasPower:true
 LiquidCapcacity: 42
+name: "scrap enforced water extractor"
 pumpAmount: 0.154
 result: water
+
 requirements:[
 copper/ 29
 lead/ 30
