@@ -1,4 +1,5 @@
 buildCostMultiplier: 0.01
+category: "crafting"
 consumes:{
 items:{items:[sand/1]}
 power:2}
