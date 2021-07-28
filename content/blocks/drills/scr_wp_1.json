@@ -12,12 +12,13 @@ LiquidCapcacity: 42
 pumpAmount: 0.154
 result: water
 requirements:[
-copper: 29
-lead: 30
-graphite: 30
-metaglass:30
-scrap: 31
+copper/ 29
+lead/ 30
+graphite/ 30
+metaglass/ 30
+scrap/ 31
 ]
+research: scrap
 size:2 
 type:"fracker"
 
