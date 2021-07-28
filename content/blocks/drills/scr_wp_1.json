@@ -1,5 +1,5 @@
 buildCostMultiplier: 0.01
-category: drill
+category: "production"
 consumes:{
   power: 1
 }
