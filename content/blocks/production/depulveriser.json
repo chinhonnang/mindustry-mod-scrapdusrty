@@ -18,4 +18,5 @@ copper /160
 lead /161
 graphite /162
 ]
+size:3
 type: "genericSmelter"
