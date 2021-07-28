@@ -9,6 +9,8 @@ hasItems:false
 hasLiquid:true
 hasPower:true
 LiquidCapcacity: 42
+pumpAmount: 0.154
+result: water
 requirements:[
 copper: 29
 lead: 30
