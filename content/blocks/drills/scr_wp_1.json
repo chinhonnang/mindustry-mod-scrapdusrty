@@ -1,0 +1,22 @@
+buildCostMultiplier: 0.01
+category: drill
+consumes:{
+  power: 1
+}
+description: "water extractor enforced with scrap. Bypassing the need to destroy an enemy base"
+health: 224
+hasItems:false
+hasLiquid:true
+hasPower:true
+LiquidCapcacity: 42
+requirements:[
+copper: 29
+lead: 30
+graphite: 30
+metaglass:30
+scrap: 31
+]
+size:2 
+
+
+
