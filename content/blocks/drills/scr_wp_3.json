@@ -9,7 +9,7 @@ hasItems:false
 hasLiquid:true
 hasPower:true
 LiquidCapcacity: 210
-name: "refined scrap enforced water extractor"
+name: "stainless scrap enforced water extractor"
 pumpAmount: 0.79
 result: water
 
@@ -18,7 +18,7 @@ copper/ 37
 lead/ 38
 graphite/ 39
 metaglass/ 40
-ref_scr/ 41
+stainless_scr/ 41
 ]
 research: scr_wp_2
 size:2 
