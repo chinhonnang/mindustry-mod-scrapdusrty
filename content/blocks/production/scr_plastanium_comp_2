@@ -1,0 +1,26 @@
+buildCostMultiplier: 0.01
+category: crafting
+craftTime: 30
+consumes:{
+items:{items:[titanium/10]}
+liquid: oil /1
+power: 3.5}
+description: "produces plastanium out of titanium and oil.Refined scrap enforced"
+health: 1442
+hasItems: ture
+hasLiquids: true
+itemCapacity: 35
+liquidCapacity: 208
+name: "refined scrap-enforced plastanium press"
+outputItem: plastanium/7 
+requirements:[
+copper/120
+lead/125
+graphite/130
+ref_scr/145 
+silicon/135
+titanium/140
+]
+research: scr_plastanium_comp_2
+size:2
+type:genericCrafter
