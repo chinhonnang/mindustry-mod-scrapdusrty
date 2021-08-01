@@ -3,7 +3,7 @@ category: crafting
 craftTime: 30
 consumes:{
 items:{items:[titanium/3]}
-liquid: oil/20
+liquid: oil /0.4
 power: 3}
 description: "produces plastanium out of titanium and oil. Scrap enforced"
 health: 442
