@@ -1,10 +1,10 @@
 name: "scrap enforced kiln"
 displayName: "scrap enforced kiln"
 description: "kiln enforced with scrap. bypassing the need to "
-consumes: [
+consumes: {
 items:{items: [lead/3
 sand/7]}
-power: 0.5]
+power: 0.5}
 
 category: crafting
 craftTime: 30
