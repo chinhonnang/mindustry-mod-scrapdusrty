@@ -3,8 +3,7 @@ category: crafting
 consumes{
 items:{items:[titanium/3]}
 
-power: 3
-}
+power: 3}
 description: "produces plastanium out of titanium and oil. Scrap enforced"
 health: 442
 hasItems: ture
