@@ -1,7 +1,7 @@
 buildCostMultiplier: 0.01
 category: crafting
 craftTime: 30
-consumes{
+consumes:{
 items:{items:[titanium/3]}
 liquid: oil/20
 power: 3}
@@ -12,7 +12,7 @@ hasLiquids: true
 ItemCapacity: 14
 LiquidCapacity: 83
 name: "scrap-enforced plastanium press"
-outputItem:plastanium 
+outputItem:plastanium/2
 requirements:[
 copper: 100
 lead: 115
@@ -21,6 +21,6 @@ scrap: 130
 silicon: 80
 titanium: 80
 ]
-
+research: scrap
 size:2
 type:genreicCrafter
