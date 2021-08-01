@@ -14,12 +14,12 @@ LiquidCapacity: 83
 name: "scrap-enforced plastanium press"
 outputItem:plastanium/2
 requirements:[
-copper: 100
-lead: 115
-graphite:60
-scrap: 130 
-silicon: 80
-titanium: 80
+copper/100
+lead/115
+graphite/60
+scrap/130 
+silicon/80
+titanium/80
 ]
 research: scrap
 size:2
