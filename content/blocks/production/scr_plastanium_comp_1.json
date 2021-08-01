@@ -9,8 +9,8 @@ description: "produces plastanium out of titanium and oil. Scrap enforced"
 health: 442
 hasItems: ture
 hasLiquids: true
-ItemCapacity: 14
-LiquidCapacity: 83
+itemCapacity: 14
+liquidCapacity: 83
 name: "scrap-enforced plastanium press"
 outputItem: {item:"plastanium","amount":2}
 requirements:[
