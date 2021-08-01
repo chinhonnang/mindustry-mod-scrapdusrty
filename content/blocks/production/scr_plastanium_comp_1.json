@@ -12,7 +12,7 @@ hasLiquids: true
 ItemCapacity: 14
 LiquidCapacity: 83
 name: "scrap-enforced plastanium press"
-outputItem:plastanium/2
+outputItem: {item:"plastanium","amount":2}
 requirements:[
 copper/100
 lead/115
