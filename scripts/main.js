@@ -1,10 +1,7 @@
-const simplex = new Packages.arc.util.noise.Simplex();
-const rid = new Packages.arc.util.noise.RidgedPerlin(1, 2);
+
 
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
 scrapulo.generator = new SerpuloPlanetGenerator();
-
-
 scrapulo.localizedName = "scrapulo";
 scrapulo.meshLoader = new HexMesh(scrapulo, 6);
 scrapulo.orbitRadius = 16;
