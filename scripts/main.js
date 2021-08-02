@@ -25,6 +25,13 @@ scrapulo_0.orbitRadius = 19;
 scrapulo_0.rotateTime = 1200;
 scrapulo_0.startSector = 81; 
 
+const scr_0_inlet = new SectorPreset("scrapulo_0_inlet", scrapulo, 124);
+scr_0_inlet.alwaysUnlocked = true;
+scr_0_inlet.captureWave = 50;
+scr_0_inlet.diffuculty = 4;
+scr_0_inlet.localizedName = "scrapulo_0 inlet";
+
+
 function scrapulo_gen (diff)
 {
        const scr_gen = extend(PlanetGenerator,
