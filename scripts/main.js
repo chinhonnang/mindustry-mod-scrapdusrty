@@ -1,5 +1,4 @@
 
-
 const scrapulo = new JavaAdapter(Planet, {}, "scrapulo", Planets.sun, 4, 1);
 scrapulo.generator = new SerpuloPlanetGenerator();
 scrapulo.localizedName = "scrapulo";
@@ -16,7 +15,14 @@ scrapulo_inlet.alwaysUnlocked = true;
 scrapulo_inlet.captureWave = 30; 
 scrapulo_inlet.localizedName = "scrapulo inlet";
 
-
+function scrapulo_gen (diff)
+{
+       const scr_gen = extend(PlanetGenerator,
+       {
+              
+       });
+       return scr_gen;
+}
        
       
 
