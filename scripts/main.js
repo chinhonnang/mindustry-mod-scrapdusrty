@@ -4,6 +4,7 @@ scrapulo.generator = new SerpuloPlanetGenerator();
 scrapulo.localizedName = "scrapulo";
 scrapulo.meshLoader = new HexMesh(scrapulo, 6);
 scrapulo.orbitRadius = 16;
+scrapulo.orbitTime = 9440;
 scrapulo.rotateTime = 25 * 60;
 scrapulo.startSector = 51; 
 
@@ -14,6 +15,14 @@ scrapulo_inlet.difficulty = 2;
 scrapulo_inlet.alwaysUnlocked = true;
 scrapulo_inlet.captureWave = 30; 
 scrapulo_inlet.localizedName = "scrapulo inlet";
+
+const scrapulo_0 = new javaAdapter(Planet,{},"scrapulo_0", Planets.sun, 4,1.2);
+scrapulo_0.generator = new SerpuloPlanetGenerator();
+scrapulo_0.localizedName = "scrapulo_0";
+scrapulo_0.orbitTime = 12211;
+scrapulo_0.orbitRadius = 19;
+scrapulo_0.rotateTime = 1200;
+scrapulo_0.startSector = 81; 
 
 function scrapulo_gen (diff)
 {
