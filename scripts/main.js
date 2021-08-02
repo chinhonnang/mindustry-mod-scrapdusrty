@@ -19,10 +19,6 @@ scrapulo_inlet.alwaysUnlocked = true;
 scrapulo_inlet.captureWave = 30; 
 scrapulo_inlet.localizedName = "scrapulo inlet";
 
-const wormnest_malaysia_knockoff = new JavaAdapter(Planet, {}, "wormnest_malaysia_knockoff", Planets.sun, 4, 1);
-wormnest_malaysia_knockoff.generator = new TwinGenerator4()
-wormnest_malaysia_knockoff.meshLoader = new HexMexh(wormnest_malaysia_knockoff,7)
-wormnest_malaysia_knockoff.localizedName = "worm nest malaysia knockoff";
 
        
       
