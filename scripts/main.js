@@ -16,7 +16,7 @@ scrapulo_inlet.alwaysUnlocked = true;
 scrapulo_inlet.captureWave = 30; 
 scrapulo_inlet.localizedName = "scrapulo inlet";
 
-const scrapulo_0 = new javaAdapter(Planet,{},"scrapulo_0", Planets.sun, 4,1);
+const scrapulo_0 = new JavaAdapter(Planet,{},"scrapulo_0", Planets.sun, 4,1);
 scrapulo_0.accessible = true;
 scrapulo_0.generator = new SerpuloPlanetGenerator();
 scrapulo_0.localizedName = "scrapulo_0";
