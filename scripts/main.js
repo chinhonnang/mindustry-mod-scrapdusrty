@@ -20,12 +20,13 @@ const scrapulo_0 = new JavaAdapter(Planet,{},"scrapulo_0", Planets.sun, 4,1);
 scrapulo_0.accessible = true;
 scrapulo_0.generator = new SerpuloPlanetGenerator();
 scrapulo_0.localizedName = "scrapulo_0";
+scrapulo_0.meshLoader = new HexMesh(scrapulo_0, 6);
 scrapulo_0.orbitTime = 12211;
 scrapulo_0.orbitRadius = 19;
 scrapulo_0.rotateTime = 1200;
 scrapulo_0.startSector = 81; 
 
-const scr_0_inlet = new SectorPreset("scrapulo_0_inlet", scrapulo_1, 124);
+const scr_0_inlet = new SectorPreset("scrapulo_0_inlet", scrapulo_0, 124);
 scr_0_inlet.alwaysUnlocked = true;
 scr_0_inlet.captureWave = 50;
 scr_0_inlet.diffuculty = 4;
