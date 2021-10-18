@@ -1,4 +1,4 @@
-name: "refined scrap enforced graphite press"
+name: "stainless scrap enforced graphite press"
 description: "graphite press enforced with refined scrap"
 consumes: {
 items:{items: [coal/50]}
