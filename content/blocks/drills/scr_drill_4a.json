@@ -1,11 +1,11 @@
 "type":"drill"
     name: "carbonised scrap enforced pneumatic Drill"
     category: production
-description: "pneumatic drill enforced with stainless scrap" 
+description: "pneumatic drill enforced with stainless scrap. Useful if a player installs varoius mods." 
 health: 23840
-itemCapacity:50
+itemCapacity:60
     tier: 40
-    drillTime: 90
+    drillTime: 80
     size: 2
     drawMineItem: true
     requirements: [
