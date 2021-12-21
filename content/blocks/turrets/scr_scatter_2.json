@@ -16,6 +16,7 @@ rotateSpeed: 15
 ammoTypes: 
 {
 lead:{
+type: BasicBulletType
 damage: 18
 speed: 18
 splashDamage: 261 
@@ -40,7 +41,7 @@ reloadMultiplier: 0.8
 ammoMultiplier: 5
 }
 scrap:{
-
+type: BasicBulletType
 damage: 24
 speed: 18
 splashDamage: 234 
