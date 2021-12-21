@@ -1,0 +1,24 @@
+"type":"drill"
+    name: "large carbonised scrap enforced pneumatic Drill"
+    category: production
+description: "pneumatic drill enforced with hardened stainless scrap. Useful if a player installs varoius mods." 
+health: 83840
+itemCapacity:160
+    tier: 40
+    drillTime: 70
+    size: 3
+    drawMineItem: true
+    requirements: [
+        copper/45
+        graphite/25
+        carb_scr/65
+    ]
+    consumes: {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    },
+    research:scr_drill_4a
