@@ -6,7 +6,7 @@ health: 312500
 itemCapacity: 625
     tier: 40
     drillTime: 50
-    size: 4
+    size: 5
     drawMineItem: true
     requirements: [
         copper/180
