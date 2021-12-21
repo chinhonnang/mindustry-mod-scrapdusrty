@@ -18,6 +18,7 @@ ammoTypes:
 {
 lead:{
 damage: 6
+type: BasicBulletType
 speed: 8
 splashDamage: 78 
 splashDamageRadius: 28	
@@ -29,6 +30,7 @@ reloadMultiplier: 1
 ammoMultiplier: 4
 }
 metaglass:{
+type: BasicBulletType
 damage: 6
 speed: 8
 splashDamage: 78 
@@ -43,6 +45,7 @@ ammoMultiplier: 5
 scrap:{
 
 damage: 8
+type: BasicBulletType
 speed: 8
 splashDamage: 78 
 splashDamageRadius: 47
@@ -54,6 +57,7 @@ reloadMultiplier: 0.5
 ammoMultiplier: 5
 }
 scr_bul1:{
+type: BasicBulletType
 damage: 16
 speed: 8
 splashDamage: 178 
@@ -66,6 +70,7 @@ reloadMultiplier: 8
 ammoMultiplier: 25
 }
 scr_bul2:{
+type: BasicBulletType
 damage: 24
 speed: 8
 splashDamage: 267 
